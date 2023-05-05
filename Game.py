@@ -1,6 +1,4 @@
 import time
-
-
 answer = input("Would you like to play (yes/no)?  ").lower ()
 
 if answer == "yes":    
@@ -30,15 +28,15 @@ if answer == "yes":
                                 print("get good at mafs, Game over")
                         else:
                                 print("You put the potatoes in the pan. ")
-                        amt2 = potatoes - amt1
-                        time.sleep(1)
-                        print("You go to turn on the gas.")
-                        print()
-                        time.sleep(1)
-                        print("A: low, B: Meduim, C: high")
-                        flame = input("What flame do you use?[a, b, c] = ").lower ()
+                                amt2 = potatoes - amt1
+                                time.sleep(1)
+                                print("You go to turn on the gas.")
+                                print()
+                                time.sleep(1)
+                                print("A: low, B: Meduim, C: high")
+                                flame = input("What flame do you use?[a, b, c] = ").lower ()
                         
-                        if flame == 'a':
+                                if flame == 'a':
                                         print("You turn the gas to low")
                                         print()
                                         time.sleep(1)
@@ -47,7 +45,7 @@ if answer == "yes":
                                         time.sleep(1)
                                         print("Game over")
                         
-                        elif flame == 'b':
+                                elif flame == 'b':
                                         print("You turn the gas on meduim")
                                         print()
                                         time.sleep(1)
@@ -56,13 +54,13 @@ if answer == "yes":
                                         time.sleep(1)
                                         print("You win!!")
                                 
-                        else:
+                                else:
                                         print("You burnt the potatoes, slow and steady wins the race")
                                         print()
                                         time.sleep(1)
                                         print("Game over")
                         
-                if answer2 == 'b':
+                elif answer2 == 'b':
                         print("you proceed to dab on her")
                         print()
                         time.sleep(1)
@@ -140,71 +138,71 @@ if answer == "yes":
                                 mom_b1 =input("What do you choose? = ").lower ()
                                 
                                 if mom_b1 == 'a':
-                                        print("You go for a risky crit on the pinky toe")
-                                        print()
-                                        time.sleep(2)
-                                        print("You crit her! -50 damage")
-                                        print()
-                                        time.sleep(2)
-                                        print("Mother: Its my house, hitting me is not allowed, you are banished")
-                                        print()
-                                        time.sleep(1)
-                                        print("You get thrown out of the house and start a new life working for raju tea stall and live a very long life")
-                                        print()
-                                        print("GAME OVER!")
+                                            print("You go for a risky crit on the pinky toe")
+                                            print()
+                                            time.sleep(2)
+                                            print("You crit her! -50 damage")
+                                            print()
+                                            time.sleep(2)
+                                            print("Mother: Its my house, hitting me is not allowed, you are banished")
+                                            print()
+                                            time.sleep(1)
+                                            print("You get thrown out of the house and start a new life working for raju tea stall and live a very long life")
+                                            print()
+                                            print("GAME OVER!")
                                         
-                                if mom_b1 == 'b':
-                                        print("you attack the face")
-                                        print()
-                                        time.sleep(2)
-                                        print("Before you can attack, you hear the aromatic smell of aloo sabji")
-                                        print()
-                                        time.sleep(2)
-                                        print("you instantly lower your hand and eat all the aloo sabji")
-                                        print()
-                                        time.sleep(2)
-                                        print("You ate the aloo sabji!!")
-                                        print()
-                                        time.sleep(1)
-                                        print(" YOU WIN !!! ")
-                                        print()
-                                        time.sleep(2)
-                                        print("(although the rest of the familly hated you because you ate all the sabji")
+                                elif mom_b1 == 'b':
+                                            print("you attack the face")
+                                            print()
+                                            time.sleep(2)
+                                            print("Before you can attack, you hear the aromatic smell of aloo sabji")
+                                            print()
+                                            time.sleep(2)
+                                            print("you instantly lower your hand and eat all the aloo sabji")
+                                            print()
+                                            time.sleep(2)
+                                            print("You ate the aloo sabji!!")
+                                            print()
+                                            time.sleep(1)
+                                            print(" YOU WIN !!! ")
+                                            print()
+                                            time.sleep(2)
+                                            print("(although the rest of the familly hated you because you ate all the sabji")
                 
-                                if mom_b1 == 'c':
-                                        print("You start running away in fear")
-                                        print()
-                                        time.sleep(1)
-                                        print("You come to a decision left or right?")
-                                        print()
-                                        time.sleep(1)
-                                        lr = input("Where do you go [left/right] = ").lower ()
+                                elif mom_b1 == 'c':
+                                            print("You start running away in fear")
+                                            print()
+                                            time.sleep(1)
+                                            print("You come to a decision left or right?")
+                                            print()
+                                            time.sleep(1)
+                                            lr = input("Where do you go [left/right] = ").lower ()
 
-                                        if lr == 'left':
-                                                print("You turn left in the hope of solitude")
-                                                print()
-                                                time.sleep(1)
-                                                print("But you are legally blind and run into a wall")
-                                                print()
-                                                time.sleep(1)
-                                                print("You get knocked out cold and your mother wins")
-                                                print()
-                                                time.sleep(1)
-                                                print(" Game over, you lost to a wall..")
+                                            if lr == 'left':
+                                                    print("You turn left in the hope of solitude")
+                                                    print()
+                                                    time.sleep(1)
+                                                    print("But you are legally blind and run into a wall")
+                                                    print()
+                                                    time.sleep(1)
+                                                    print("You get knocked out cold and your mother wins")
+                                                    print()
+                                                    time.sleep(1)
+                                                    print(" Game over, you lost to a wall..")
                                         
-                                        if lr == 'left':
-                                                print("You turn left in the hope of shelter")
-                                                print()
-                                                time.sleep(1)
-                                                print("but you forget you are dyslexic and end up going left")  
-                                                time.sleep(1)
-                                                print("But you are legally blind and run into a wall")
-                                                print()
-                                                time.sleep(1)
-                                                print("You get knocked out cold and your mother wins")
-                                                print(" Game over, you lost to a wall..")             
+                                            elif lr == 'left':
+                                                    print("You turn left in the hope of shelter")
+                                                    print()
+                                                    time.sleep(1)
+                                                    print("but you forget you are dyslexic and end up going left")  
+                                                    time.sleep(1)
+                                                    print("But you are legally blind and run into a wall")
+                                                    print()
+                                                    time.sleep(1)
+                                                    print("You get knocked out cold and your mother wins")
+                                                    print(" Game over, you lost to a wall..")             
                         
-                        if mom == 'c':
+                        elif mom == 'c':
                                 print("You use your counter ratio card")
                                 print()
                                 time.sleep(1)
@@ -236,7 +234,7 @@ if answer == "yes":
                                         time.sleep(1)
                                         print("Game over")
                                 
-                                if momc_1 == 'b': 
+                                elif momc_1 == 'b': 
                                         print("Her face starts to turn angrier by the second")
                                         print()
                                         time.sleep(1)
@@ -254,7 +252,7 @@ if answer == "yes":
                                         time.sleep(1)
                                         print("OMEGA WIN!")
                 
-                                if momc_1 == 'c':
+                                elif momc_1 == 'c':
                                         print("For the first few seconds she is confused by your movments")
                                         print()
                                         time.sleep(1)
@@ -271,8 +269,7 @@ if answer == "yes":
                         print("Way too many potatoes, what is this the irish famine?")
          
         else:
-                print("Invalid wtf u doing noob")
+                print("Invalid watchu doing ??")
     
 elif answer == 'no':
                 print("damn alright")
-
